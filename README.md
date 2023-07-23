@@ -1,5 +1,5 @@
 # Disaster Response Pipeline Project
-In this project, you'll apply these skills to analyze disaster data from Appen (formally Figure 8) to build a model for an API that classifies disaster messages.
+In this project, we'll apply these skills to analyze disaster data from Appen (formally Figure 8) to build a model for an API that classifies disaster messages.
 
 ## File Structure
 ~~~~~~~
@@ -10,10 +10,10 @@ In this project, you'll apply these skills to analyze disaster data from Appen (
 |- run.py  # Flask file that runs app
 
 - data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
+|- categories.csv  # data to process 
+|- messages.csv  # data to process
 |- process_data.py
-|- InsertDatabaseName.db   # database to save clean data to
+|- DisasterResponse.db   # database to save clean data to
 
 - models
 |- train_classifier.py
